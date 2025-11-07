@@ -16,4 +16,8 @@ public class TokenConverter {
     public Token convert(TokenDto tokenDto) {
         return new Token();
     }
+
+    public String someMethod(){
+        return "Okey";
+    }
 }
